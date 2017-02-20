@@ -1,7 +1,88 @@
+/* --- links / general --- */
+
+a {
+  color: #f8971d;
+  }
+
+a:hover,
+a:focus {
+  color: #f8971d;
+  text-decoration: underline;
+  }
+
+/* link / nav */
+
+.nav-item a {
+  font-weight: bold;
+  }
+
+#custom-header-navbar .nav-item a:hover:after,
+#custom-header-navbar .nav-item a:focus:after,
+#custom-header-navbar .nav-item a:active:after {
+  background: #f8971d;
+  }
+
+/* featured job headings / slider */
+
+h4.text-primary {
+  font-weight: bold;
+  color: #f8971d;
+  }
+
+.featuredEmployer-link:hover ~ h4.text-primary,
+.featuredEmployer-link:focus ~ h4.text-primary,
+.featuredEmployer-link:active ~ h4.text-primary {
+  color: #f8971d;
+  text-decoration: underline;
+  }
+
+.featuredEmployer-link:focus,
+.featuredEmployer-link:active {
+  outline: 0;
+  }
+
+.featuredEmployers .panel:focus:after,
+.featuredEmployers .panel:active:after {
+  background-color: #f8971d;
+  }
+
+/* primary button / general */
+
+.btn-primary,
+.btn-success {
+  color: #fff;
+  background: #f8971d;
+  }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-success:hover,
+.btn-success:focus {
+  color: #fff;
+  text-decoration: none;
+  background: #a6a6a6;
+  }
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-success:active,
+.btn-success:focus {
+  background: #939393 !important;
+  }
+
+/* --- hero banner --- */
+
 .heroTextWrapper {
   font-family: brandon-grotesque, "Helvetica Neue", "Helvetica", sans-serif;
 }
 
+/* --- featured jobs / highlight --- */
+
+#homepage .is-featured::after {
+  background: #f8971d;
+  }
+
+/* --- typography / general --- */
 
 h1,
 h2,
