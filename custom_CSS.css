@@ -10,10 +10,50 @@ a:focus {
   text-decoration: underline;
   }
 
-/* link / nav */
+/* --- main navigation --- */
 
-.nav-item a {
+.headerCustom-aux {
+  background: #000;
+  }
+
+#custom-header-navbar ul {
+  margin-top: .875em;
+  }
+
+.headerCustom-aux .dropdown-toggle {
+  color: #f8971d;
+  }
+
+.headerCustom-aux .dropdown-toggle svg {
+  color: #a6a6a6;
+  }
+
+.headerCustom-aux .dropdown-toggle:hover,
+.headerCustom-aux .dropdown-toggle:focus,
+.headerCustom-aux .dropdown-toggle:active {
+  color: #f8971d;
+  }
+
+.headerCustom-aux .dropdown-toggle:hover svg,
+.headerCustom-aux .dropdown-toggle:focus svg,
+.headerCustom-aux .dropdown-toggle:active svg {
+  fill: #fff;
+  }
+
+#custom-header-wrapper {
+  background: #222;
+  }
+
+#custom-header-wrapper .nav-item a {
   font-weight: bold;
+  color: #fff !important;
+  }
+
+.nav-item a:hover,
+.nav-item a:focus,
+.nav-item a:active {
+  color: #fff !important;
+  text-decoration: none;
   }
 
 #custom-header-navbar .nav-item a:hover:after,
@@ -70,16 +110,41 @@ h4.text-primary {
   background: #939393 !important;
   }
 
-/* --- hero banner --- */
+/* --- hero banner / home page --- */
 
 .heroTextWrapper {
   font-family: brandon-grotesque, "Helvetica Neue", "Helvetica", sans-serif;
 }
 
+#homepage .hero {
+  height: auto;
+  padding: 3% auto;
+  }
+
+#homepage .heroTextWrapper {
+  padding: 2%;
+  margin-bottom: 2.5%;
+  }
+
+.results-hero {
+  background: #948a7f url("https://d6dyoorq84mou.cloudfront.net/uploads/widget/search_widget/image/5772/gym-hero-texture.png") center no-repeat;
+  }
+
 /* --- featured jobs / highlight --- */
 
-#homepage .is-featured::after {
+.jobList .is-featured::after {
   background: #f8971d;
+  }
+
+.jobList .ribbon {
+  font-size: .7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #4cc1e0;
+  }
+
+.jobList .indeed-apply {
+  color: #4cc1e0;
   }
 
 /* --- typography / general --- */
@@ -126,4 +191,20 @@ h3  {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
+  }
+
+/* employer details */
+
+.panel--employer h3 {
+  margin-top: .2em;
+  }
+
+.panel--employer p + h3 {
+  margin-top: 1.1em;
+  }
+
+/* --- figures / employer logos -- */
+
+.employer-media {
+  margin-bottom: 1.2em;
   }
