@@ -185,6 +185,7 @@ h4 {
   }
 
 h1,
+h1.u-textH3,
 h2.u-mb--large,
 h3.u-mb--large,
 .col-md-9 h2,
@@ -217,7 +218,8 @@ h2  {
   margin-bottom: 0;
   }
 
-h3 {
+h3,
+.results-subscribeHeader h3 {
   font-weight: 700;
   font-size: 1.6em;
   line-height: 1.1;
@@ -247,7 +249,7 @@ h3 {
 .results-subscribeHeader {
   background: transparent !important;
   padding: 0;
-  margin: 0 1em 1em;
+  margin: 0 1em 1.2em;
   }
 
 .results-subscribeHeader h3 {
