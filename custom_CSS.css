@@ -62,6 +62,12 @@ a:focus {
   background: #f8971d;
   }
 
+/* mobile hamburger and tic-tac-toe */
+
+.header-mobileToggle a {
+  color: #f8971d !important;
+  }
+
 /* featured job headings / slider */
 
 h4.text-primary {
@@ -166,13 +172,37 @@ h4 {
   font-weight: 700;
 }
 
-h1  {
+.results-header {
+  margin-top: 0 !important;
+  }
+
+.page-content .panel-body {
+  padding-top: 1.8em;
+  }
+
+#homepage .panel-body {
+  padding-top: 1.2em;
+  }
+
+h1,
+.page-content > h2,
+.page-content > h3 {
   font-weight: 900;
   font-size: 2.2em;
   line-height: 1.1;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
+  }
+
+h1.u-mt--small {
+  margin-top: 0 !important;
+  }
+
+.page-content h1,
+.page-content h2,
+.page-content h3 {
+  margin-bottom: .5em;
   }
 
 h2  {
@@ -184,7 +214,8 @@ h2  {
   margin-bottom: 0;
   }
 
-h3  {
+h3,
+#homepage h3  {
   font-weight: 700;
   font-size: 1.6em;
   line-height: 1.1;
