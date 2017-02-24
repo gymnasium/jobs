@@ -41,7 +41,7 @@ a:focus {
   }
 
 #custom-header-wrapper {
-  background: #222;
+  background: #444;
   }
 
 #custom-header-wrapper .nav-item a {
@@ -60,6 +60,90 @@ a:focus {
 #custom-header-navbar .nav-item a:focus:after,
 #custom-header-navbar .nav-item a:active:after {
   background: #f8971d;
+  }
+
+#gym-nav-primary {
+  position: relative;
+  line-height: 1;
+  text-align: center;
+  background: #222;
+  padding: .125em 1em;
+  }
+
+#gym-nav-primary .framework {
+  max-width: 78em;
+  margin: 0 auto;
+  }
+
+#gym-nav-primary .menu {
+  list-style: none;
+  padding-left: 0;
+  margin: .5em 0;
+  }
+
+#gym-nav-primary a {
+  display: block;
+  }
+
+#gym-nav-primary .brand {
+  margin-top: 1.5em;
+  }
+
+#gym-nav-primary .brand img {
+  vertical-align: middle;
+  }
+
+#gym-nav-primary .menu li {
+  display: inline;
+  margin-left: 1em;
+  }
+
+#gym-nav-primary .menu li:first-child {
+  margin-left: 0;
+  }
+
+#gym-nav-primary .menu a {
+  display: inline-block;
+  font: normal 1.05em/1 brandon-grotesque, "Helvetica Neue", Helvetica, sans-serif;
+  color: #ebebeb;
+  text-decoration: none;
+  padding: .5em;
+  margin: .5em 0;
+  }
+
+#gym-nav-primary .menu a:hover,
+#gym-nav-primary .menu a:focus {
+  color: #f8971d;
+  }
+
+@media (min-width: 32em) {
+
+#gym-nav-primary {
+  text-align: right;
+  }
+
+#gym-nav-primary .brand {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 1.5625em;
+  margin: auto 0;
+  }
+
+#gym-nav-primary .menu {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -.25em;
+  }
+
+}
+
+/* For IE 6/7 only */
+
+#gym-nav-primary .menu,
+#gym-nav-primary .menu a {
+  *display: inline;
+  *zoom: 1;
   }
 
 /* mobile hamburger and tic-tac-toe */
