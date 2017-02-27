@@ -40,6 +40,14 @@ a:focus {
   fill: #fff;
   }
 
+/*
+input:hover + .siteSearch-labelIcon,
+input:focus + .siteSearch-labelIcon,
+input:active + .siteSearch-labelIcon {
+  fill: #f8971d;
+  }
+ */
+
 #custom-header-wrapper {
   background: #444;
   }
@@ -338,4 +346,35 @@ h3,
 
 .results-subscribeHeader h3 {
   color: #000 !important;
+  }
+
+/* --- main footer -- */
+
+.footer {
+  background: #222;
+  border-top: .375em solid #f8971d;
+  }
+
+.footer .footerLinks {
+  background: url("https://thegymnasium.com/static/gymnasium/images/gymnasiumLogo.png") left center no-repeat;
+  padding-left: 14em;
+  }
+
+.footerLinks ul {
+  margin-top: .375em;
+  }
+
+.footerLinks a {
+  display: inline-block;
+  font: normal 1.05em/1 brandon-grotesque, "Helvetica Neue", Helvetica, sans-serif;
+  color: #ebebeb;
+  padding: .25em;
+  margin: 0 .25em;
+  }
+
+.footerLinks a:hover,
+.footerLinks a:focus,
+.footerLinks a:active {
+  color: #f8971d;
+  text-decoration: none;
   }
