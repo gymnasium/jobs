@@ -234,15 +234,17 @@ h4.text-primary {
   background: #f8971d;
   }
 
-.jobList .ribbon {
+.jobList .indeed-apply {
+  color: #4cc1e0;
+  }
+
+/* --- ribbon / urgent --- */
+
+.ribbon {
   font-size: .7em;
   font-weight: bold;
   text-transform: uppercase;
   background: #4cc1e0;
-  }
-
-.jobList .indeed-apply {
-  color: #4cc1e0;
   }
 
 /* --- typography / general --- */
