@@ -380,3 +380,12 @@ h3,
   color: #f8971d;
   text-decoration: none;
   }
+
+
+/* post a job: hide options that aren't full time */
+form#postJob .form-group.job-types .col-sm-9 label:nth-child(2),
+form#postJob .form-group.job-types .col-sm-9 label:nth-child(3),
+form#postJob .form-group.job-types .col-sm-9 label:nth-child(4)
+{
+  display:none;
+}
