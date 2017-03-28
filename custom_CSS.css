@@ -292,10 +292,20 @@ h4.text-primary {
   font-family: brandon-grotesque, "Helvetica Neue", "Helvetica", sans-serif;
 }
 
-#homepage .hero {
+.hero {
   height: auto;
-  padding: 3% auto;
+  padding: 0;
+}
+
+.hero .page-container {
+  padding: 0 1em 1em;
+}
+
+@media (min-width: 48em) {
+  .hero .page-container {
+    padding: 1em;
   }
+}
 
 #homepage .heroTextWrapper {
   padding: 2%;
