@@ -421,19 +421,65 @@ h3,
 
 /* --- main footer -- */
 
+.footer .footerLinks {
+  display: none;
+  }
+
+.footer-custom .footerLinks {
+  display: block;
+  }
+
 .footer {
   background: #222;
+  padding: 3em 0;
   border-top: .375em solid #f8971d;
   }
 
-.footer .footerLinks {
-  background: url("https://thegymnasium.com/static/gymnasium/images/gymnasiumLogo.png") left center no-repeat;
+.footerLinks {
+  background: url("https://thegymnasium.com/static/gymnasium/images/gymnasiumLogo.png") no-repeat 0 center;
+  padding-top: .25em;
   padding-left: 14em;
   }
 
 .footerLinks ul {
-  margin-top: .375em;
+  /* margin-top: .375em; */
+  position: relative;
+  top: -.35em;
   }
+
+@media (max-width: 48em) {
+
+.footer {
+  padding: 1em;
+  }
+
+.footerLinks {
+  background-position: center top;
+  text-align: center;
+  padding-top: 5em;
+  padding-left: 0;
+  margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 42em) {
+
+.footerLinks {
+  padding-top: 4em;
+  }
+
+.footerLinks ul {
+  display: inline-block !important;
+  text-align: left;
+  }
+
+.footerLinks li {
+  display: block !important;
+  margin-top: 1em;
+  }
+
+}
 
 .footerLinks a {
   display: inline-block;
