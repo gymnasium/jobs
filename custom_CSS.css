@@ -10,6 +10,16 @@ a:focus {
   text-decoration: underline;
   }
 
+/* --- main sections / structure  --- */
+
+.page-content {
+  padding: 1.8em 0 0;
+  }
+
+div.col-md-6.job-listing-section {
+  width: 100%;
+  }
+
 /* --- main navigation --- */
 
 .headerCustom-aux {
