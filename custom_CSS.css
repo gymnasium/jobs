@@ -164,11 +164,11 @@ input:active + .siteSearch-labelIcon {
 
 .headerCustom-left li {
   display: inline !important;
-  margin-left: 1em;
+  margin: 0 1em !important;
   }
 
 .headerCustom-left li:first-child {
-  margin-left: 0;
+  margin: 0 !important;
   }
 
 .headerCustom-left a {
@@ -225,6 +225,10 @@ footer .hidden-xs {
 
 .headerCustom-left ul {
   text-align: center;
+  }
+
+.headerCustom-left ul li:first-child {
+  display: block !important;
   }
 
 }
