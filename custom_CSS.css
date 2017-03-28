@@ -27,7 +27,7 @@ div.col-md-6.job-listing-section {
   }
 
 #custom-header-navbar ul {
-  margin-top: .875em;
+  margin-top: .75em;
   }
 
 .headerCustom-aux .dropdown-toggle {
@@ -130,7 +130,8 @@ input:active + .siteSearch-labelIcon {
   }
 
 #gym-nav-primary .menu a:hover,
-#gym-nav-primary .menu a:focus {
+#gym-nav-primary .menu a:focus,
+#gym-nav-primary .menu a:active {
   color: #f8971d;
   }
 
@@ -156,6 +157,24 @@ input:active + .siteSearch-labelIcon {
 
 }
 
+.headerCustom-left ul {
+  display: block !important;
+  margin: 0 auto;
+  }
+
+.headerCustom-left li {
+  display: inline !important;
+  margin-left: 1em;
+  }
+
+.headerCustom-left li:first-child {
+  margin-left: 0;
+  }
+
+.headerCustom-left a {
+  display: inline-block !important;
+  }
+
 /* For IE 6/7 only */
 
 #gym-nav-primary .menu,
@@ -169,6 +188,46 @@ input:active + .siteSearch-labelIcon {
 .header-mobileToggle a {
   color: #f8971d !important;
   }
+
+/* bs nav/menu overrides */
+
+.visible-xs {
+  display: none !important;
+  height: 0;
+  }
+
+@media (max-width: 48em) {
+
+body {
+  padding-top: 0;
+  }
+
+header.hidden-xs,
+footer .hidden-xs {
+  display: block !important;
+  }
+
+#custom-header-wrapper .nav-item a:hover,
+#custom-header-wrapper .nav-item a:focus,
+#custom-header-wrapper .nav-item a:active {
+  color: #f8971d !important;
+  }
+
+#custom-header-navbar .nav-item a:hover:after,
+#custom-header-navbar .nav-item a:focus:after,
+#custom-header-navbar .nav-item a:active:after {
+  display: none !important;
+  }
+
+}
+
+@media (max-width: 32em) {
+
+.headerCustom-left ul {
+  text-align: center;
+  }
+
+}
 
 /* featured job headings / slider */
 
@@ -390,7 +449,6 @@ h3,
   color: #f8971d;
   text-decoration: none;
   }
-
 
 /* post a job: hide options that aren't full time */
 
