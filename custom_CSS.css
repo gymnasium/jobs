@@ -168,7 +168,7 @@ input:active + .siteSearch-labelIcon {
   }
 
 .headerCustom-left li:first-child {
-  margin: 0 !important;
+  margin-left: 0 !important;
   }
 
 .headerCustom-left a {
@@ -229,6 +229,7 @@ footer .hidden-xs {
 
 .headerCustom-left ul li:first-child {
   display: block !important;
+  margin: 0 !important;
   }
 
 }
