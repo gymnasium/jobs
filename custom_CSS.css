@@ -538,13 +538,19 @@ h3,
 
 /* post a job: hide options that aren't full time */
 
+/* omit (04/05/17) */
+
+/*
 form#postJob .form-group.job-types .col-sm-9 label:nth-child(2),
 form#postJob .form-group.job-types .col-sm-9 label:nth-child(3),
 form#postJob .form-group.job-types .col-sm-9 label:nth-child(4),
 .job-types .radio-inline {
   display: none;
   }
+ */
 
+/*
 .job-types .radio-inline:first-child {
   display: inline-block;
   }
+ */
