@@ -374,15 +374,17 @@ h4.text-primary {
   text-transform: uppercase;
   }
 
-.results-action div,
 .results-action:hover,
 .results-action:focus {
   color: #f8971d;
+  background: #fef4e8;
   }
 
 .results-action div:first-child {
   font-size: 1.2em;
   }
+
+/* icon(s) / color and layout */
 
 .results-action:hover .icon {
   fill: #f8971d;
@@ -394,6 +396,13 @@ h4.text-primary {
 
 .results-options--filters .icon {
   top: 0;
+  }
+
+/* results filter / background-color */
+
+.results-filters {
+  background: #fef4e8;
+  background: rgba(248, 151, 29, 0.1);
   }
 
 /* --- featured jobs / highlight --- */
