@@ -383,9 +383,14 @@ h4.text-primary {
   text-transform: uppercase;
   }
 
+.results-action div,
 .results-action:hover,
 .results-action:focus {
   color: #f8971d;
+  }
+
+.results-action:hover,
+.results-action:focus {
   background: #fef4e8;
   }
 
