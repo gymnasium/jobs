@@ -221,15 +221,26 @@ footer .hidden-xs {
 
 }
 
-@media (max-width: 32em) {
+@media (max-width: 48em) {
 
-.headerCustom-left ul {
-  text-align: center;
+#custom-header-navbar ul {
+  margin-top: 0 !important;
   }
 
-.headerCustom-left ul li:first-child {
+.headerCustom-left .nav-item {
   display: block !important;
+  border-top: 1px solid #666;
   margin: 0 !important;
+  }
+
+.headerCustom-left .nav-item:first-child {
+  padding-top: 0;
+  border-top: 0;
+  }
+
+.headerCustom-left .nav-item a {
+  display: block !important;
+  padding: .8em;
   }
 
 }
