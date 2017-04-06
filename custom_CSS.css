@@ -537,6 +537,7 @@ h3,
 #widget_7589 {
   background: #ebebeb;
   padding: 2%;
+  border-bottom: 1px solid #ddd;
   margin-bottom: 0;
   }
 
@@ -571,7 +572,7 @@ h3,
 #widget_7589 {
   background: #ebebeb;
   padding: 2%;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   margin-bottom: 1.4em;
   }
 
