@@ -427,6 +427,12 @@ h4.text-primary {
 
 /* --- featured jobs / highlight --- */
 
+/* fix this selection later! */
+
+.jobList>*.is-featured {
+  background: #fef4e8;
+  }
+
 .jobList .is-featured::after {
   background: #f8971d;
   }
