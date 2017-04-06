@@ -372,7 +372,16 @@ h4.text-primary {
   fill: #f8971d;
   }
 
-/* search results / panel / global */
+/* advanced search results / panel / global */
+
+@supports (position: sticky) {
+
+.search-panel .panel {
+ position: sticky;
+ top: 1.8em;
+  }
+
+}
 
 .page-content .search-panel h3 {
   margin-bottom: 1.4em;
