@@ -530,12 +530,18 @@ h3,
 
 /* h3 / .content-well .col-md-9 h3 / custom pages */
 
+/* e.g. career center */
+
 .content-well .col-md-9 h3 {
   margin: 1.4em 0 .6em;
   }
 
 .content-well .col-md-9 h3 + ul {
   margin: 1.2em 0 2.2em;
+  }
+
+.content-well .col-md-9 li {
+  margin-top: .5em;
   }
 
 .text-primary,
