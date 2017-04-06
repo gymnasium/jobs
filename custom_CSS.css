@@ -338,6 +338,7 @@ h4.text-primary {
 
 .results-hero {
   background: #948a7f url("https://d6dyoorq84mou.cloudfront.net/uploads/widget/search_widget/image/5772/gym-hero-texture.png") center no-repeat;
+  padding: 1em 0;
   }
 
 /* --- featured jobs / highlight --- */
