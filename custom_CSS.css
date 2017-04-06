@@ -610,6 +610,21 @@ h3,
 
 }
 
+/* products / post a job */
+
+.product-wrapper {
+  background: #ebebeb;
+  border: 1px solid #ddd;
+  }
+
+.product-wrapper .product-price div {
+  border: 0;
+  }
+
+.product-priceText {
+  font-family: brandon-grotesque, "Helvetica Neue", "Helvetica", sans-serif;
+  }
+
 /* employer details */
 
 .panel--employer h3 {
