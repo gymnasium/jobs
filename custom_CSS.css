@@ -349,7 +349,7 @@ h4.text-primary {
   margin-bottom: 2.5%;
   }
 
-/* -- search / global --- */
+/* -- search / hero / global --- */
 
 .results-hero {
   background: #948a7f url("https://d6dyoorq84mou.cloudfront.net/uploads/widget/search_widget/image/5772/gym-hero-texture.png") center no-repeat;
@@ -361,6 +361,35 @@ h4.text-primary {
 .siteSearch input:focus + .siteSearch-labelIcon,
 .siteSearch .dropdown.open .icon--align {
   fill: #f8971d;
+  }
+
+/* search results / panel / global */
+
+.page-content .search-panel h3 {
+  margin-bottom: 1.4em;
+  }
+
+.search-panel h5 {
+  font-weight: 900;
+  text-transform: uppercase;
+  }
+
+.results-action div,
+.results-action:hover,
+.results-action:focus {
+  color: #f8971d;
+  }
+
+.results-action div:first-child {
+  font-size: 1.2em;
+  }
+
+.results-action:hover .icon {
+  fill: #f8971d;
+  }
+
+.results-options svg {
+  top: .125em;
   }
 
 /* --- featured jobs / highlight --- */
@@ -387,7 +416,9 @@ h4.text-primary {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: brandon-grotesque, "Helvetica Neue", "Helvetica", sans-serif;
   }
 
