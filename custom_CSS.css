@@ -414,6 +414,12 @@ h4.text-primary {
   background: rgba(248, 151, 29, 0.1);
   }
 
+/* email subscribe panel */
+
+.results-subscribePanel {
+  background: #ebebeb;
+  }
+
 /* --- featured jobs / highlight --- */
 
 .jobList .is-featured::after {
