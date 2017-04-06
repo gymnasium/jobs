@@ -14,7 +14,7 @@ a:focus {
   text-decoration: underline;
   }
 
-/* --- main sections / structure  --- */
+/* --- main sections / structure --- */
 
 .page-content {
   padding: 1.8em 0 0;
@@ -22,6 +22,15 @@ a:focus {
 
 div.col-md-6.job-listing-section {
   width: 100%;
+  }
+
+.panel {
+  border: 1px solid #ddd;
+  }
+
+.panel:after,
+.panel::after {
+  display: none;
   }
 
 /* --- main navigation --- */
@@ -522,7 +531,6 @@ h3,
 #widget_7589 {
   background: #ebebeb;
   padding: 2%;
-  border-bottom: 1px solid #ccc;
   margin-bottom: 0;
   }
 
