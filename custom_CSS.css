@@ -406,13 +406,24 @@ h2  {
   }
 
 h3,
-.results-subscribeHeader h3 {
+.results-subscribeHeader h3,
+.content-well .col-md-9 h3 {
   font-weight: 700;
   font-size: 1.6em;
   line-height: 1.1;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
+  }
+
+/* h3 / .content-well .col-md-9 h3 / custom pages */
+
+.content-well .col-md-9 h3 {
+  margin: 1.4em 0 .6em;
+  }
+
+.content-well .col-md-9 h3 + ul {
+  margin: 1.2em 0 2.2em;
   }
 
 .text-primary,
