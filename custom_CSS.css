@@ -277,7 +277,20 @@ h4.text-primary {
   background-color: #f8971d;
   }
 
-/* primary button / general */
+/* --- button(s) / global  --- */
+
+.btn {
+  text-transform: none !important;
+  }
+
+/* remove faux drop shadow */
+
+.btn:after,
+.btn::after {
+  display: none !important;
+  }
+
+/* --- primary button / general --- */
 
 .btn-primary,
 .btn-success,
