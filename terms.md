@@ -1,6 +1,6 @@
 # Terms of Use
 
-**Posted: 5/1/2017**
+Posted: 5/1/2017
 
 These Terms of Use (“Terms”) are the terms under which you (“You”) may use the Gymnasium Service.  These Terms include the Aquent Privacy Policy which is incorporated into these Terms by reference.
 
