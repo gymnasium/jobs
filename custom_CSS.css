@@ -482,6 +482,38 @@ h4.text-primary {
   background: #4cc1e0;
   }
 
+/* --- pagination / job listing  --- */
+
+.pagination>li>a,
+.pagination>li>a:hover,
+.pagination>li>a:focus {
+  color: #222;
+  background: #ebebeb;
+  border: 1px solid #ccc;
+  }
+
+.pagination>li>a:hover {
+  top: 0;
+  color: #fff;
+  background: #a6a6a6;
+  border-bottom-width: 1px;
+  }
+
+.pagination>li>a:focus {
+  color: #fff;
+  background: #939393;
+  }
+
+.pagination>.active>a,
+.pagination>.active>a:hover {
+  background: #f8971d;
+  border-color: #f8971d;
+  }
+
+.pagination>li>a::after {
+  background: none;
+  }
+
 /* --- typography / general --- */
 
 h1,
