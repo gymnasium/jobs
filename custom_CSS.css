@@ -427,19 +427,46 @@ h4.text-primary {
 
 /* --- featured jobs / highlight --- */
 
-/* fix this selection later! */
+/* job listing / general */
 
-.jobList>*.is-featured {
+.jobList>* {
+  min-height: none;
+  }
+
+#homepage .jobList .is-featured{
+  padding: 1em 1.75em;
+  }
+
+/* is featured jobs */
+
+.jobList> .is-featured {
+  padding: 1em;
   background: #fef4e8;
   }
 
 .jobList .is-featured::after {
+  width: .5em;
   background: #f8971d;
   }
 
 .jobList .indeed-apply {
   color: #4cc1e0;
   }
+
+.is-featured .jobList-media {
+  width: auto;
+  padding-right: .375em;
+  }
+
+.is-featured .jobList-media img {
+  display: inline-block;
+  max-width: 5em;
+  vertical-align: middle;
+  border: 1px solid #ebebeb;
+  margin-left: .625em;
+  }
+
+/* fix this selection later! */
 
 /* --- ribbon / urgent --- */
 
