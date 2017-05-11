@@ -419,6 +419,18 @@ h4.text-primary {
   background: rgba(248, 151, 29, 0.1);
   }
 
+/* more results */
+
+.results-more {
+  font-weight: bold;
+  color: #f8971d;
+  }
+  
+.results-more:hover,
+.results-more:focus {
+  text-decoration: underline;
+  }
+
 /* email subscribe panel */
 
 .results-subscribePanel {
