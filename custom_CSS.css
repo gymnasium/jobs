@@ -437,6 +437,12 @@ h4.text-primary {
   background: #ebebeb;
   }
 
+/* email job alerts */
+
+.form-control {
+  border: 1px solid #ccc;
+  }
+
 /* --- featured jobs / highlight --- */
 
 /* job listing / general */
