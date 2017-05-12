@@ -489,6 +489,20 @@ h4.text-primary {
   margin-left: .625em;
   }
 
+/* tag / search categories */
+
+.tag  {
+  color: #f8971d;
+  background: #fef4e8;
+  background: rgba(248, 151, 29, 0.1);
+  border: 1px solid #f8971d;
+  }
+
+.tag:hover,
+.tag:focus {
+  color: #f8971d;
+  }
+
 /* fix this selection later! */
 
 /* --- ribbon / urgent --- */
