@@ -352,9 +352,13 @@ h4.text-primary {
 
 @media (max-width: 48em) {
 
-  #homepage .hero {
+  .hero {
     margin-right: -15px;
     margin-left: -15px;
+  }
+
+  .hero .page-container {
+    padding: 1em%;
   }
 
 }
