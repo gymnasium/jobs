@@ -345,9 +345,11 @@ h4.text-primary {
   padding: 0;
 }
 
+/*
 .hero .page-container {
   padding: 0 1em 1em;
 }
+*/
 
 @media (min-width: 48em) {
   .hero .page-container {
