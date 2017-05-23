@@ -172,12 +172,13 @@ input:active + .siteSearch-labelIcon {
 
 .headerCustom-left ul {
   display: block !important;
+  text-align: right;
   margin: 0 auto;
   }
 
 .headerCustom-left li {
   display: inline !important;
-  margin: 0 1em !important;
+  margin: 0 0 0 2em !important;
   }
 
 .headerCustom-left li:first-child {
@@ -241,6 +242,7 @@ footer .hidden-xs {
   }
 
 #custom-header-navbar ul {
+  text-align: left;
   margin-top: 0 !important;
   }
 
@@ -425,7 +427,7 @@ h4.text-primary {
   font-weight: bold;
   color: #f8971d;
   }
-  
+
 .results-more:hover,
 .results-more:focus {
   text-decoration: underline;
