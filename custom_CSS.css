@@ -347,7 +347,7 @@ h4.text-primary {
 
 
 .hero .page-container {
-  padding: 3%;
+  padding: 1.5em;
 }
 
 @media (max-width: 48em) {
@@ -358,7 +358,7 @@ h4.text-primary {
   }
 
   .hero .page-container {
-    padding: 1em%;
+    padding: 1.2em;
   }
 
 }
